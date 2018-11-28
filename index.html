@@ -27,7 +27,7 @@
 
 	<header id="main-head">
 
-		<div class="logo-container d-flex justify-content-center align-items-center">
+		<div class="logo-container">
 			<img src="img/logo/logo.png" alt="logo" data-z-index="20">
 		</div>
 		<img src="img/header/header1.png" alt="" class="header-img1" data-z-index="10">
@@ -169,7 +169,7 @@
 	</section>
 
 	<section id="jury">
-		<img src="img/jury/jury-img1.png" alt="" class="jury-img1">
+
 		<img src="img/jury/jury-img2.png" alt="" class="jury-img2">
 		<div class="container">
 			<div class="row">
@@ -182,11 +182,26 @@
 								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 								<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 								<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-								<li data-target="#carouselExampleIndicators" data-slide-to=""></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 							</ol>
 							<div class="carousel-inner">
 
-								<div class="carousel-item active">
+								
+									<div class="carousel-item active">
+											<figure class="caption-border hovereffect  d-flex justify-content-center align-items-center">
+												<img class="img-responsive" src="img/jury/jury3.png">
+												<!--<h5>Алексей Кортнев</h5>-->
+												<figcaption class="overlay">
+													<h5>Алексей Кортнев</h5>
+													<p class="jury-mission">Председатель жюри, музыкант, актёр театра и кино, автор-исполнитель, телеведущий</p>
+													<p class="jury-progress">Солист и лидер группы «Несчастный случай». ПОБЕДИТЕЛЬ КОНКУРСА БУДЕТ ВЫСТУПАТЬ С АЛЕКСЕЕМ КОРТНЕВЫМ В КЛУБЕ "16
+														ТОНН"
+													</p>
+												</figcaption>
+											</figure>
+										</div>
+
+								<div class="carousel-item ">
 									<figure class="caption-border hovereffect  d-flex justify-content-center align-items-center">
 										<img class="img-responsive" src="img/jury/jury1.png">
 										<!--<h5>Олег Чилап</h5>-->
@@ -208,20 +223,6 @@
 											<p class="jury-mission">Профессиональный преподаватель вокала премиум-класса, создатель вокальной студии MDart</p>
 											<p class="jury-progress">Его ученики не раз завоёвывали призовые места и участвовали в популярных шоу-программах и престижных конкурсах,
 												таких как «Евровидение», «Голос. Дети».
-											</p>
-										</figcaption>
-									</figure>
-								</div>
-
-								<div class="carousel-item">
-									<figure class="caption-border hovereffect  d-flex justify-content-center align-items-center">
-										<img class="img-responsive" src="img/jury/jury3.png">
-										<!--<h5>Алексей Кортнев</h5>-->
-										<figcaption class="overlay">
-											<h5>Алексей Кортнев</h5>
-											<p class="jury-mission">Председатель жюри, музыкант, актёр театра и кино, автор-исполнитель, телеведущий</p>
-											<p class="jury-progress">Солист и лидер группы «Несчастный случай». ПОБЕДИТЕЛЬ КОНКУРСА БУДЕТ ВЫСТУПАТЬ С АЛЕКСЕЕМ КОРТНЕВЫМ В КЛУБЕ "16
-												ТОНН"
 											</p>
 										</figcaption>
 									</figure>
@@ -269,42 +270,42 @@
 
 			<div class="row">
 				<div class="nav flex-column nav-pills col-md-4" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-					<a class="nav-link doc-item active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home"
+					<a class="nav-link doc-item active" id="v-pills-sponsor-tab" data-toggle="pill" href="#v-pills-sponsor" role="tab" aria-controls="v-pills-sponsor"
 					 aria-selected="true">Учредители и Организаторы</a>
-					<a class="nav-link doc-item" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
+					<a class="nav-link doc-item" id="v-pills-mission-tab" data-toggle="pill" href="#v-pills-mission" role="tab" aria-controls="v-pills-mission"
 					 aria-selected="false">Цели</a>
-					<a class="nav-link doc-item" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+					<a class="nav-link doc-item" id="v-pills-task-tab" data-toggle="pill" href="#v-pills-task" role="tab" aria-controls="v-pills-task"
 					 aria-selected="false">Задачи</a>
-					<a class="nav-link doc-item" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
+					<a class="nav-link doc-item" id="v-pills-partner-tab" data-toggle="pill" href="#v-pills-partner" role="tab" aria-controls="v-pills-partner"
 					 aria-selected="false">Участники / Возрастные категории</a>
-					<a class="nav-link doc-item" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+					<a class="nav-link doc-item" id="v-pills-specification-tab" data-toggle="pill" href="#v-pills-specification" role="tab" aria-controls="v-pills-specification"
 					 aria-selected="false">Обязательные требования</a>
 					<a class="nav-link doc-item" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
 					 aria-selected="false">Технические требования</a>
 				</div>
 
 				<div class="tab-content  list-item col-md-8" id="v-pills-tabContent">
-					<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+					<div class="tab-pane fade show active" id="v-pills-sponsor" role="tabpanel" aria-labelledby="v-pills-sponsor-tab">
 						<p>Творческое объединение «ВРЕМЕНА ГОДА» г. Москва;</p>
 						<p>Школа Трех Искусств Алексея Кортнева г.Москва;</p>
 						<p>Радиостанция "RADIO#SMILE FM", Испания - Россия</p>
 						<p>Творческий интернет портал ART-HYPE.RU</p>
 					</div>
 
-					<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+					<div class="tab-pane fade" id="v-pills-mission" role="tabpanel" aria-labelledby="v-pills-mission-tab">
 						<p>Объединение  исполнителей  вокальных и хореографических направлений, таких как Рок, Рок-н-Ролл, Джаз,Танцевальный и
 							акробатический Рок-н-Ролл, БУГИ-ВУГИ, ТВИСТ, СВИНГ и т.д. Как любителей, так и профессионалов и педагогов ставящих
 							в основу профессиональный подход и ориентирующих своих воспитанников на дальнейшую профессиональную творческую деятельность.
 						</p>
 					</div>
 
-					<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+					<div class="tab-pane fade" id="v-pills-task" role="tabpanel" aria-labelledby="v-pills-task-tab">
 						<p>Продвижение результатов  творчества участников на большую сцену и телевизионный экран; обмен опытом в области технологий
 							вокального и хореографического образования;  Обмен опытом в области технологий менеджмента и маркетинга в сфере шоу-бизнеса.
 						</p>
 					</div>
 
-					<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+					<div class="tab-pane fade" id="v-pills-partner" role="tabpanel" aria-labelledby="v-pills-partner-tab">
 						<p>Профессиональные и любительские исполнители, дуэты, трио, ансамбли без возрастных ограничений.</p>
 						<p>KIDS  (МАЛЫШИ) 3 - 7 лет</p>
 						<p>TEENS  (ДЕТИ) 8 - 14 лет</p>
@@ -314,16 +315,21 @@
 						<p>PROFESSIONALS  (ПРОФЕССИОНАЛЫ)</p>
 					</div>
 
-					<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-						<p>*Каждый Участник может исполнить одно или несколько произведений разных жанров. *Конкурсные выступления проводятся
-							с использованием фонограмм "минус", "живого" аккомпанемента или без сопровождения (акапельно). *Запрещено использование
-							фонограмм с любыми Дабл-Бек вокальными партиями, в том числе в унисон, любых дублирующих голос исполнителя.   *Микрофоны,
-							используемые во время конкурсных прослушиваний, отстроены для всех участников одинаково (контроль осуществляется специальным
-							представителем Оргкомитета фестиваля). *Обработка голоса подключена и работает для всех участников конкурса одинаково
-							без изменений. *Конкурсант исполняет произведение на любом языке мира. *Жюри имеет право попросить исполнить акапельно
-							куплет и припев на русском языке. *Произведение исполняются: дуэты и ансамбли младшей возрастной группы - двухголосие,
-							остальные формы не менее трехголосия.  *Продолжительность произведения – не более 3,5 минут,  Шоу-группа – не более
-							4 минут. *Каждый участник должен предоставить оргкомитету данные по композитору и поэту исполняемой композиции.</p>
+					<div class="tab-pane fade" id="v-pills-specification" role="tabpanel" aria-labelledby="v-pills-specification-tab">
+						<p>*Каждый Участник может исполнить одно или несколько произведений разных жанров. </p>
+						<p>*Конкурсные выступления проводятся с использованием фонограмм "минус", "живого" аккомпанемента или без сопровождения
+							(акапельно).</p>
+						<p>*Запрещено использование фонограмм с любыми Дабл-Бек вокальными партиями, в том числе в унисон, любых дублирующих голос
+							исполнителя.   </p>
+						<p>*Микрофоны, используемые во время конкурсных прослушиваний, отстроены для всех участников одинаково (контроль осуществляется
+							специальным представителем Оргкомитета фестиваля).</p>
+						<p>*Обработка голоса подключена и работает для всех участников конкурса одинаково без изменений.</p>
+						<p>*Конкурсант исполняет произведение на любом языке мира. </p>
+						<p>*Жюри имеет право попросить исполнить акапельно куплет и припев на русском языке. </p>
+						<p>*Произведение исполняются: дуэты и ансамбли младшей возрастной группы - двухголосие, остальные формы не менее трехголосия.</p>
+						<p>*Продолжительность произведения – не более 3,5 минут,  Шоу-группа – не более 4 минут. </p>
+						<p>*Каждый участник должен предоставить оргкомитету данные по композитору и поэту исполняемой композиции.</p>
+
 					</div>
 
 					<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
@@ -363,16 +369,17 @@
 					</button>
 
 					<div class="modal fade" id="modalMap" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-lg" role="document">
-								<div class="modal-content">
-									<div class="modal-body mb-0 p-0">
-										<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-											<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4474.1604414681!2d37.35446000000001!3d55.89596800000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ab735799f60c860!2z0J3QvtCy0L7Qs9C-0YDRgdC6!5e0!3m2!1sru!2sru!4v1543301263983" allowfullscreen></iframe>
-										</div>
+						<div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+								<div class="modal-body mb-0 p-0">
+									<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+										<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4474.1604414681!2d37.35446000000001!3d55.89596800000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ab735799f60c860!2z0J3QvtCy0L7Qs9C-0YDRgdC6!5e0!3m2!1sru!2sru!4v1543301263983"
+										 allowfullscreen></iframe>
 									</div>
 								</div>
 							</div>
 						</div>
+					</div>
 
 				</div>
 			</div>
@@ -644,7 +651,35 @@
 
 	<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
 	<script src="js/common.js"></script>
+	
 	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter51329383 = new Ya.Metrika2({
+                    id:51329383,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/51329383" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter -->
 	<!-- /Google Analytics counter -->

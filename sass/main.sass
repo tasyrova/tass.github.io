@@ -30,6 +30,9 @@ h3
 a 
 	text-decoration: none
 
+img 
+	overflow: hidden
+
 .reg-btn, .video-play, .map-btn
 	position: relative
 	display: inline-block
@@ -124,26 +127,23 @@ a
 h1
 	color: $bg-color
 .logo-container
-	background-image: url(../img/logo/plate.png)
-	background-size: contain
 	position: absolute
-	width: 400px
-	height: 400px
-	top: -100px
-	left: -90px
+	width: 350px
+	height: 350px
+	top: 0
+	left: 0
 	z-index: 5
 	img
-		width: 200px
+		width: 300px
 		height: auto
-		padding-right: 10px
 .header-img1
-	max-height: 250px
-	top: -80px
+	max-height: 180px
+	top: 0
 	left: 160px
 .header-img2
 	max-height: 300px
 	bottom: 180px
-	right: -40px
+	right: 0
 .info-head
 	position: absolute
 	right: 0
@@ -252,16 +252,16 @@ $h: 5px
 	img 
 		position: absolute
 	.description-img1
-		left: 0
+		left: 10px
 		top: -160px
 	.description-img2
-		left: -100px
+		left: 0
 		bottom: -100px
-		max-width: 600px
+		max-width: 450px
 	.description-img3
-		left: -20px
+		left: 10px
 		bottom: 30px
-		max-width: 420px
+		max-width: 320px
 .hashtag, .description-head
 	text-transform: uppercase
 	margin-bottom: 20px
@@ -296,7 +296,7 @@ $h: 5px
 
 #jury
 	position: relative
-	background: $accent-color
+	background-color: $accent-color
 	padding-top: 150px
 	padding-bottom: 150px
 	text-align: center
@@ -317,6 +317,9 @@ $h: 5px
 	.carousel-indicators
 		margin: 0
 		padding: 0
+	.carousel-control-prev-icon
+		padding: 5px
+
 
 #jury
 	.caption-border
